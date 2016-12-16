@@ -4,6 +4,11 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+#trip-grid .trip-photo:nth-of-type(1), #trip-grid .trip-photo:nth-of-type(2), #trip-grid .trip-photo:nth-of-type(3), #trip-grid .trip-photo:nth-of-type(4), #trip-grid .trip-photo:nth-of-type(5), #trip-grid .trip-photo:nth-of-type(6) {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -15,15 +20,26 @@ html {
   margin-top: 80px;
   display: flex;
   flex-wrap: wrap; }
+  @media (max-width: 960px) {
+    #trip-grid {
+      margin-top: 0; } }
   #trip-grid .trip-photo {
-    background: pink;
-    border: 1px solid black;
     height: 420px;
     width: 25%;
     flex-grow: 1; }
     #trip-grid .trip-photo:nth-of-type(1) {
+      background-image: url("../img/raft.jpg");
       flex-basis: 50%; }
+    #trip-grid .trip-photo:nth-of-type(2) {
+      background-image: url("../img/basecamp.jpg"); }
+    #trip-grid .trip-photo:nth-of-type(3) {
+      background-image: url("../img/backpack.jpg"); }
+    #trip-grid .trip-photo:nth-of-type(4) {
+      background-image: url("../img/canoe.jpg"); }
+    #trip-grid .trip-photo:nth-of-type(5) {
+      background-image: url("../img/photography.jpg"); }
     #trip-grid .trip-photo:nth-of-type(6) {
+      background-image: url("../img/custom.jpg");
       flex-basis: 50%; }
 
 .nav-container {
