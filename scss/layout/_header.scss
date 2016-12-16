@@ -104,6 +104,12 @@ header {
     padding: 0px 30px;
     background: $orange;
     border-radius: 3px;
+    &:hover {
+      cursor: pointer;
+    }
+    @media (max-width: 960px) {
+      display: none;
+    }
   }
   #hero-text-hold {
     position: absolute;

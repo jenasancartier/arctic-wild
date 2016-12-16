@@ -105,6 +105,11 @@ header {
     padding: 0px 30px;
     background: #dc7725;
     border-radius: 3px; }
+    #hero #hero-scroll-down span:hover {
+      cursor: pointer; }
+    @media (max-width: 960px) {
+      #hero #hero-scroll-down span {
+        display: none; } }
   #hero #hero-text-hold {
     position: absolute;
     top: 25%;
