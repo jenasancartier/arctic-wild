@@ -108,13 +108,14 @@ body {
       border-radius: 50%;
       position: absolute;
       top: 38%;
-      left: 40%;
+      left: 42%;
       width: 100px;
       height: 100px;
       display: block;
       margin: auto;
       -webkit-transition: transform 0.3s, opacity 0.3s; }
       #trip-grid .trip-photo .trip-icon:hover {
+        cursor: pointer;
         -webkit-transform: scale(1.25); }
       #trip-grid .trip-photo .trip-icon img {
         height: 40px;

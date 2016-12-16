@@ -99,7 +99,7 @@
       border-radius: 50%;
       position: absolute;
       top: 38%;
-      left: 40%;
+      left: 42%;
       // transform: translate(-50%, 0);
       width: 100px;
       height: 100px;
@@ -107,6 +107,7 @@
       margin: auto;
       -webkit-transition: transform 0.3s, opacity 0.3s;
       &:hover {
+        cursor: pointer;
       -webkit-transform: scale(1.25);
       }
       img {
@@ -119,27 +120,6 @@
 
 
     }
-
-    // .icon-back {
-    //   position: absolute;
-    //   top: 38%;
-    //   left: 50%;
-    //   transform: translate(-50%, 0);
-    //   width: 100%;
-    //   text-align: center;
-    //   background: rgba(0, 0, 0, 0.6);
-    //   border-radius: 50%;
-    //   width: 80px;
-    //   height: 80px;
-    //   display: block;
-    //   margin: auto;
-    //   z-index: 1;
-    //   img {
-    //     padding: 25px;
-    //     width: 40px;
-    //     height: auto;
-    //   }
-    // }
 
   }
 
