@@ -11,6 +11,21 @@ html {
   margin: 0;
   padding: 0; }
 
+#trip-grid {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap; }
+  #trip-grid .trip-photo {
+    background: pink;
+    border: 1px solid black;
+    height: 420px;
+    width: 25%;
+    flex-grow: 1; }
+    #trip-grid .trip-photo:nth-of-type(1) {
+      flex-basis: 50%; }
+    #trip-grid .trip-photo:nth-of-type(6) {
+      flex-basis: 50%; }
+
 .nav-container {
   width: 900px;
   position: relative;
