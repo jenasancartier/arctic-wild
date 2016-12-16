@@ -23,19 +23,16 @@ header {
   position: absolute;
   left: 0px;
   top: 75px;
-}
-
-#logo svg.mark {
-  width: 50px;
-}
-
-#logo svg {
-  height: 50px;
-  vertical-align: top;
-}
-
-#logo svg.text {
-  width: 180px;
+  svg.mark {
+    width: 50px;
+  }
+  svg {
+    height: 50px;
+    vertical-align: top;
+  }
+  svg.text {
+    width: 180px;
+  }
 }
 
 #navigation-main nav ul {
@@ -49,20 +46,20 @@ header {
   @media (max-width: 960px) {
     display: none;
   }
-}
-
-li {
-  padding: 0 20px;
-  color: white;
-  font-family: 'Fjalla One', sans-serif;
-  letter-spacing: 2px;
-  cursor: crosshair;
-  font-size: 15px;
-  line-height: 30px;
-  @media (max-width: 1150px) {
-    font-size: 13px;
+  li {
+    padding: 0 20px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    cursor: crosshair;
+    font-size: 15px;
+    line-height: 30px;
+    @media (max-width: 1150px) {
+      font-size: 13px;
+    }
   }
 }
+
 
 #hero {
   height: 100%;
@@ -71,14 +68,23 @@ li {
   background-position: top;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-#hero-text-hold {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-}
-
-#hero .hero-text {
-  text-align: center;
+  .hero-text {
+    text-align: center;
+  }
+  #hero-text-hold {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+  }
+  .hero-text h2 span {
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 6px;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  .hero-text svg {
+    height: 225px;
+    margin-top: -45px;
+  }
 }
