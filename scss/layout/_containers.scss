@@ -12,6 +12,10 @@
   li {
     font-family: $open;
     margin: 0px 15px;
+    &:hover {
+      color: white;
+      cursor: pointer;
+    }
     &:nth-of-type(1) {
       color: white;
     }
