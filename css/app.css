@@ -34,12 +34,19 @@ header {
   height: 50px;
   position: absolute;
   left: 0px;
-  top: 75px; }
+  top: 75px;
+  z-index: 100; }
   @media (max-width: 960px) {
     #logo {
-      top: 40px; } }
+      top: 35px; } }
+  @media (max-width: 770px) {
+    #logo {
+      left: 10%; } }
   #logo svg.mark {
     width: 50px; }
+    @media (max-width: 960px) {
+      #logo svg.mark {
+        margin-right: -20px; } }
   #logo svg {
     height: 50px;
     vertical-align: top; }
@@ -93,6 +100,8 @@ header {
       #hero #hero-text-hold {
         top: 20%; } }
   #hero .hero-text h2 span {
+    display: block;
+    margin: auto;
     font-size: 20px;
     line-height: 30px;
     color: white;
@@ -101,7 +110,12 @@ header {
     @media (max-width: 960px) {
       #hero .hero-text h2 span {
         font-size: 16px;
-        line-height: 26px; } }
+        line-height: 26px;
+        letter-spacing: 4px; } }
+    @media (max-width: 770px) {
+      #hero .hero-text h2 span {
+        font-size: 12px;
+        line-height: 20px; } }
   #hero .hero-text svg {
     height: 225px;
     margin-top: -45px; }
@@ -109,12 +123,19 @@ header {
       #hero .hero-text svg {
         height: 150px;
         margin-top: -30px; } }
+    @media (max-width: 770px) {
+      #hero .hero-text svg {
+        height: 95px;
+        margin-top: -20px; } }
   #hero .heading-sep {
     height: 5px;
     width: 250px;
     background: white;
     margin: 25px auto;
     margin-top: -37px; }
+    @media (max-width: 770px) {
+      #hero .heading-sep {
+        margin-top: -10px; } }
   #hero .video-btn {
     background: rgba(255, 255, 255, 0.4);
     border-radius: 50%;
