@@ -1,7 +1,15 @@
+header {
+  height: 100vh;
+  @media (max-width: 960px) {
+    height: 500px;
+  }
+}
+
 .container {
   position: relative;
   margin: auto;
-  max-width: 90vw;
+  max-width: 90%;
+  display: block;
 }
 
 
@@ -47,4 +55,12 @@ li {
   cursor: crosshair;
   font-size: 15px;
   line-height: 30px;
+}
+
+#hero {
+  height: 100%;
+  background-image: url("../img/hero-slide.jpg");
+  background-size: cover;
+
+
 }

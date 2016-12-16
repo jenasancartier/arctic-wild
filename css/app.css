@@ -4,13 +4,24 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body {
-  background: black; }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+header {
+  height: 100vh; }
+  @media (max-width: 960px) {
+    header {
+      height: 500px; } }
 
 .container {
   position: relative;
   margin: auto;
-  max-width: 90vw; }
+  max-width: 90%;
+  display: block; }
 
 #logo {
   width: 240px;
@@ -49,5 +60,10 @@ li {
   cursor: crosshair;
   font-size: 15px;
   line-height: 30px; }
+
+#hero {
+  height: 100%;
+  background-image: url("../img/hero-slide.jpg");
+  background-size: cover; }
 
 /*# sourceMappingURL=app.css.map */
