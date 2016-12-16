@@ -29,7 +29,8 @@ body {
   #trip-grid .trip-photo {
     height: 420px;
     width: 25%;
-    flex-grow: 1; }
+    flex-grow: 1;
+    position: relative; }
     #trip-grid .trip-photo:nth-of-type(1) {
       background-image: url("../img/raft.jpg");
       flex-basis: 50%; }
@@ -102,6 +103,25 @@ body {
           margin-right: 30px;
           margin-left: 30px;
           border-radius: 4px; } }
+    #trip-grid .trip-photo .trip-icon {
+      background: rgba(25, 26, 26, 0.7);
+      border-radius: 50%;
+      position: absolute;
+      top: 38%;
+      left: 40%;
+      width: 100px;
+      height: 100px;
+      display: block;
+      margin: auto;
+      -webkit-transition: transform 0.3s, opacity 0.3s; }
+      #trip-grid .trip-photo .trip-icon:hover {
+        -webkit-transform: scale(1.25); }
+      #trip-grid .trip-photo .trip-icon img {
+        height: 40px;
+        width: auto;
+        display: block;
+        margin: auto;
+        margin-top: 30%; }
 
 .nav-container {
   width: 900px;

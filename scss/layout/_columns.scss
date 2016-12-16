@@ -9,6 +9,7 @@
     height: 420px;
     width: 25%;
     flex-grow: 1;
+    position: relative;
     &:nth-of-type(1) {
       @extend %image;
       background-image: url("../img/raft.jpg");
@@ -93,5 +94,53 @@
         border-radius: 4px;
       }
     }
+    .trip-icon {
+      background: rgba(25, 26, 26, 0.7);
+      border-radius: 50%;
+      position: absolute;
+      top: 38%;
+      left: 40%;
+      // transform: translate(-50%, 0);
+      width: 100px;
+      height: 100px;
+      display: block;
+      margin: auto;
+      -webkit-transition: transform 0.3s, opacity 0.3s;
+      &:hover {
+      -webkit-transform: scale(1.25);
+      }
+      img {
+        height: 40px;
+        width: auto;
+        display: block;
+        margin: auto;
+        margin-top: 30%;
+      }
+
+
+    }
+
+    // .icon-back {
+    //   position: absolute;
+    //   top: 38%;
+    //   left: 50%;
+    //   transform: translate(-50%, 0);
+    //   width: 100%;
+    //   text-align: center;
+    //   background: rgba(0, 0, 0, 0.6);
+    //   border-radius: 50%;
+    //   width: 80px;
+    //   height: 80px;
+    //   display: block;
+    //   margin: auto;
+    //   z-index: 1;
+    //   img {
+    //     padding: 25px;
+    //     width: 40px;
+    //     height: auto;
+    //   }
+    // }
+
   }
+
 }
