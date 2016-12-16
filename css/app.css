@@ -22,6 +22,9 @@ header {
   margin: auto;
   max-width: 90%;
   display: block; }
+  @media (max-width: 1150px) {
+    .container {
+      width: 900px; } }
 
 #logo {
   width: 240px;
@@ -43,7 +46,7 @@ header {
 #navigation-main nav ul {
   position: absolute;
   right: 0px;
-  top: 75px;
+  top: 90px;
   list-style: none;
   display: flex;
   color: white;
@@ -53,17 +56,31 @@ header {
       display: none; } }
 
 li {
-  padding: 0 10px;
+  padding: 0 20px;
   color: white;
   font-family: 'Fjalla One', sans-serif;
   letter-spacing: 2px;
   cursor: crosshair;
   font-size: 15px;
   line-height: 30px; }
+  @media (max-width: 1150px) {
+    li {
+      font-size: 13px; } }
 
 #hero {
   height: 100%;
   background-image: url("../img/hero-slide.jpg");
-  background-size: cover; }
+  background-size: cover;
+  background-position: top;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#hero-text-hold {
+  position: absolute;
+  top: 25%;
+  width: 100%; }
+
+#hero .hero-text {
+  text-align: center; }
 
 /*# sourceMappingURL=app.css.map */
