@@ -69,7 +69,7 @@ header {
   li {
     padding: 0 20px;
     color: white;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: $fjalla;
     letter-spacing: 2px;
     cursor: crosshair;
     font-size: 15px;
@@ -93,7 +93,7 @@ header {
   }
   #hero-scroll-down span {
     color: white;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: $fjalla;
     font-size: 14px;
     letter-spacing: 2px;
     position: absolute;
@@ -126,7 +126,7 @@ header {
     line-height: 30px;
     color: white;
     letter-spacing: 6px;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: $fjalla;
     @media (max-width: 960px) {
       font-size: 16px;
       line-height: 26px;

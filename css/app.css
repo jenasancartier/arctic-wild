@@ -11,6 +11,34 @@ html {
   margin: 0;
   padding: 0; }
 
+.nav-container {
+  width: 900px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; }
+  .nav-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+  .nav-container li {
+    font-family: "Open Sans", sans-serif;
+    margin: 0px 20px; }
+  .nav-container span {
+    font-family: "Open Sans", sans-serif; }
+
+#navigation-category {
+  padding: 20px 0px;
+  display: block;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  background-image: url("../img/nav-bg.jpg");
+  background-position: top center;
+  background-repeat: repeat-x;
+  height: 80px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #bdbdb7; }
+
 header {
   height: 100vh; }
   @media (max-width: 960px) {
@@ -74,7 +102,7 @@ header {
   #navigation-main nav ul li {
     padding: 0 20px;
     color: white;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: "Fjalla One", sans-serif;
     letter-spacing: 2px;
     cursor: crosshair;
     font-size: 15px;
@@ -94,7 +122,7 @@ header {
     text-align: center; }
   #hero #hero-scroll-down span {
     color: white;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: "Fjalla One", sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
     position: absolute;
@@ -124,7 +152,7 @@ header {
     line-height: 30px;
     color: white;
     letter-spacing: 6px;
-    font-family: 'Fjalla One', sans-serif; }
+    font-family: "Fjalla One", sans-serif; }
     @media (max-width: 960px) {
       #hero .hero-text h2 span {
         font-size: 16px;
