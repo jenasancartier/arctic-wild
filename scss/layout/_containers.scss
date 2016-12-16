@@ -11,16 +11,28 @@
   }
   li {
     font-family: $open;
-    margin: 0px 20px;
+    margin: 0px 15px;
+    &:nth-of-type(1) {
+      color: white;
+    }
+    &:nth-of-type(5) {
+      color: $orange;
+      border-left: 1px solid $shady;
+      padding-left: 20px;
+    }
   }
   span {
     font-family: $open;
+    margin-right: 10px;
   }
 }
 
 #navigation-category {
   padding: 20px 0px;
   display: block;
+  z-index: 90;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
   background-image: url("../img/nav-bg.jpg");
   background-position: top center;
@@ -29,4 +41,7 @@
   line-height: 30px;
   font-size: 14px;
   color: $shady;
+  @media (max-width: 960px) {
+    display: none;
+  }
 }
