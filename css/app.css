@@ -92,6 +92,19 @@ header {
   background-repeat: no-repeat; }
   #hero .hero-text {
     text-align: center; }
+  #hero #hero-scroll-down span {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    line-height: 60px;
+    padding: 0px 30px;
+    background: #dc7725;
+    border-radius: 3px; }
   #hero #hero-text-hold {
     position: absolute;
     top: 25%;
