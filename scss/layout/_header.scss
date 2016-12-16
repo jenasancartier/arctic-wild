@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  margin: auto;
+  max-width: 90vw;
+}
+
+
+#logo {
+  width: 240px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 75px;
+}
+
+#logo svg.mark {
+  width: 50px;
+}
+
+#logo svg {
+  height: 50px;
+  vertical-align: top;
+}
+
+#logo svg.text {
+  width: 180px;
+}
+
+#navigation-main nav ul {
+  position: absolute;
+  right: 0px;
+  top: 75px;
+  list-style: none;
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+  @media (max-width: 960px) {
+    display: none;
+  }
+}
+
+li {
+  padding: 0 10px;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 2px;
+  cursor: crosshair;
+  font-size: 15px;
+  line-height: 30px;
+}
